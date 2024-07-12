@@ -1,0 +1,43 @@
+#qna{
+    display: none;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+*{
+    font-size: 20px; font-family: "Gowun Batang", serif; font-weight: 400; font-style: normal;
+}
+.slider {
+  width: 70%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+  border-radius: 20px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: darkgray;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: darkgray;
+  cursor: pointer;
+  border-radius: 20px;
+}
